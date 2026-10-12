@@ -82,7 +82,7 @@ function Contact() {
                     href="tel:+919999999999"
                     className="text-lg hover:text-[#D4AF37] transition"
                   >
-                    +91 88985 79630 
+                    +91 83560 87223 
                   </a>
                 </div>
               </div>
@@ -103,7 +103,8 @@ function Contact() {
                     href="mailto:info@smartsyncsolutions.com"
                     className="text-lg hover:text-[#D4AF37] transition"
                   >
-                    info@smartsyncsolutions.com
+                    smartsyncsolutions2018@gmail.com
+
                   </a>
                 </div>
               </div>

@@ -103,8 +103,7 @@ function Contact() {
                     href="mailto:info@smartsyncsolutions.com"
                     className="text-lg hover:text-[#D4AF37] transition"
                   >
-                    smartsyncsolutions2018@gmail.com
-
+                    info@smartsyncsolutions.in
                   </a>
                 </div>
               </div>

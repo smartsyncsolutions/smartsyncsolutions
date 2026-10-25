@@ -24,7 +24,8 @@ function Home() {
           duration: 0.8,
           ease: "easeOut",
         }}
-        className="bg-[#F8F7F4] pt-8 pb-20"
+        id="technologies"
+        className="scroll-mt-24 bg-[#F8F7F4] pt-8 pb-20"
       >
         <div className="max-w-7xl mx-auto px-5 lg:px-10">
           {/* Heading */}

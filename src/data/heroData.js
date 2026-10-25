@@ -3,12 +3,20 @@ const heroData = {
 
   title: "Connecting Technology. Securing Tomorrow.",
 
+  titleLines: ["Connecting Technology.", "Securing Tomorrow."],
+
   subtitle:
     "SmartSync Solutions delivers premium Audio Visual, Home Automation, Enterprise WiFi, CCTV Surveillance and Integrated Security Solutions for residential, commercial and corporate spaces.",
 
   primaryButton: "Get Free Consultation",
 
   secondaryButton: "Explore Services",
+
+  demo: {
+    label: "Live product demo",
+    title: "SmartSync Speaker",
+    caption: "Room-filling sound. Voice-ready control.",
+  },
 };
 
 export default heroData;

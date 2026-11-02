@@ -81,31 +81,26 @@ body {
   color: transparent;
 }
 
-@keyframes floaty {
-  0%,
-  100% {
-    transform: translateY(0);
+/* Slow drift for still-image hero slides so they don't look frozen. */
+@keyframes kenburns {
+  from {
+    transform: scale(1) translate3d(0, 0, 0);
   }
-  50% {
-    transform: translateY(-10px);
+  to {
+    transform: scale(1.08) translate3d(-1.2%, -0.9%, 0);
   }
 }
 
-.animate-floaty {
-  animation: floaty 7s ease-in-out infinite;
-}
-
-.animate-floaty-delayed {
-  animation: floaty 8.5s ease-in-out infinite;
-  animation-delay: -2.5s;
+.animate-kenburns {
+  animation: kenburns 22s ease-in-out infinite alternate;
+  will-change: transform;
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .animate-floaty,
-  .animate-floaty-delayed,
   .animate-ping,
   .animate-bounce,
-  .animate-zoom {
+  .animate-zoom,
+  .animate-kenburns {
     animation: none !important;
   }
 }
